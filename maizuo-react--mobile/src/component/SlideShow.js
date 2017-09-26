@@ -40,9 +40,9 @@ class SlideShow extends Component {
         const sss = this.state.status !== 0 ? <div style={{display: 'none'}}/> : <WingBlank>
             <Carousel
                 className="my-carousel"
-                autoplay={true}
+                autoplay={this.state.data.length === 1 ? false : true}
                 infinite
-                selectedIndex={1}
+                selectedIndex={0}
                 swipeSpeed={35}
                 dots={false}
             >
