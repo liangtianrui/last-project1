@@ -1,0 +1,73 @@
+.am-segment {
+    border-bottom: 1px solid rgb(254,110,0);
+    height: 50px;
+    background: rgb(245,245,245);
+    border-radius: 0 !important;
+}
+.am-segment-item {
+    border: none !important;
+    background: rgb(245,245,245) !important;
+    color: rgb(106,106,106) !important;
+    border-radius: 0 !important;
+    font-size: 16px !important;
+}
+.am-segment-item-selected {
+    border-bottom: 3px solid rgb(254,110,0) !important;
+    color: rgb(254,110,0) !important;
+}
+.film-main {
+    width: 100%;
+    margin: 30px 0;
+}
+.film-one {
+    /*width: 100%;*/
+    height: 30%;
+    overflow: hidden;
+    border-bottom: 1px dashed #9a9a9a;
+    padding-bottom: 30px;
+}
+.film-img {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.film-img img {
+    width: 100%;
+}
+.film-message {
+    float: left;
+    margin-left: 10px;
+    width: 75%;
+
+}
+.message-header {
+    overflow: hidden;
+    font-size: 18px;
+}
+.message-movie-name {
+    float: left;
+}
+.message-grade {
+    float: right;
+    color:  #fe8233;
+    padding-right: 5%;
+}
+.message-content {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 400;
+    padding: 22px 0;
+}
+.message-now {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 400;
+}
+.message-coming {
+    font-size: 14px;
+    color: #fe8233;
+    font-weight: 200;
+}
+.color-number {
+    color: rgb(138,162,191);
+}

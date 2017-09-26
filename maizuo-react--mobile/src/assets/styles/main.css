@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.main-content {
+    margin-bottom: 20px;
+    list-style-type: none;
+    box-shadow: .5px .5px 1px #a8a8a8;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    float: left;
+}
+
+.main-bottom {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.movie-count {
+    color: #9a9a9a;
+    font-weight: 200;
+    margin-top: 4px;
+}
+
+.movie-name {
+    color: black;
+}
+
+.bottom-right {
+    color: #f78360;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.future-right {
+    color: #f78360;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.more-movie {
+    border: 1px solid #aaa;
+    color: #616161;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 40%;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.future-line {
+    border-bottom: 1px solid #a8a8a8;
+    width: 100%;
+    position: relative;
+    margin: 50px 0;
+}
+
+.future-line div {
+    position: absolute;
+    width: 20%;
+    color: white;
+    top: -10px;
+    left: 50%;
+    margin-left: -10%;
+    text-align: center;
+    background: #a7a7a7;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px;
+}
