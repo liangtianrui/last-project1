@@ -75,11 +75,17 @@
     padding-right: 20px;
     background: url('../images/下箭头.svg') no-repeat right;
     background-size: 30%;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .user-icon {
     padding: 0 10px;
     background: url('../images/user.svg') no-repeat center;
     background-size: 80%;
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    margin-left: 65px;
+    margin-top: -18px;
+
 }
