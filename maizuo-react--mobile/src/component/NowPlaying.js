@@ -59,8 +59,6 @@ class NowPlaying extends Component {
         </div>
       )
     })
-
-
     return (
       <div>
         {filmsArr}
