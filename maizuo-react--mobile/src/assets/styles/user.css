@@ -1,0 +1,48 @@
+.wrap{
+    background-color: #F6F6F6;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    width: 375px;
+    height: 197px;
+    text-align: center;
+    padding: 30px;
+}
+.user{
+    width: 313px;
+    height: 34px;
+    background-color: #F6F6F6;
+    border: 0;
+    font-size: 14px;
+    color: #999999;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.pass{
+    width: 313px;
+    height: 34px;
+    background-color: #F6F6F6;
+    margin-top: 30px;
+    border: 0;
+    font-size: 14px;
+    color: #999999;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.input-bg{
+    height: 12px;
+    width: 100%;
+    border: solid #c4c4c4;
+    border-width: 0 1px 1px 1px;
+    margin-top: -11px;
+}
+.but{
+    width: 163px;
+    height: 38px;
+    border-radius: 15px;
+    background-color: #EF871B;
+    color: white;
+    margin-top: 80px;
+    border: 0;
+}
