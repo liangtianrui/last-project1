@@ -23,10 +23,11 @@ class Header extends Component {
 
   render () {
     const array = ['首页', '影片', '影院', '商城', '我的', '卖座卡']
+    const arrayList = ['/', '/', '/', '/', '/', '/']
     const sidebar = (<List>
       {array.map((item, index) => {
         return (
-          <Link onClick={this.onOpenChanges} key={index.toString()} to='/'><List.Item
+          <Link onClick={this.onOpenChanges} key={index.toString()} to={arrayList[index]}><List.Item
             arrow="horizontal">{item}</List.Item></Link>);
       })}
     </List>);

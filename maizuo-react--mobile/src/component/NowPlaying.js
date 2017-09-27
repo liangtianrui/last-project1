@@ -11,12 +11,6 @@ class NowPlaying extends Component {
 
   componentDidMount () {
     this.ajax('/api/film/now-playing?page=1&count=7')
-    document.body.scroll = this.scroll
-    window.addEventListener('scroll', this.scroll)
-  }
-  componentDidUpdate () {
-    document.body.scroll = this.scroll
-    window.addEventListener('scroll', this.scroll)
   }
   ajax (url) {
     fetch(url)
@@ -60,7 +54,7 @@ class NowPlaying extends Component {
       )
     })
     return (
-      <div>
+      <div onScroll={this.scroll}>
         {filmsArr}
       </div>
     )

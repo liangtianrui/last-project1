@@ -9,7 +9,9 @@
     height: 100%;
     -webkit-overflow-scrolling: touch;
 }
-
+.list {
+    list-style-type: none;
+}
 .my-drawer .am-drawer-sidebar {
     background-color: #fff;
     overflow: auto;

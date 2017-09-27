@@ -7,9 +7,12 @@ import './assets/styles/main.css'
 import './assets/styles/details.css'
 
 class App extends Component {
+    scroll = () => {
+        console.log('app')
+    }
   render () {
     return (
-      <div>
+      <div onScroll={this.scroll}>
         <Header />
       </div>
     )
